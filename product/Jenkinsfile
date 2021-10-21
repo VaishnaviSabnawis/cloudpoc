@@ -12,6 +12,7 @@ pipeline{
 
 			steps {
                 		sh 'cd product'
+				sh 'ls'
 				sh 'docker build -t newscape/productimg:latest .'
 			}
 		}
