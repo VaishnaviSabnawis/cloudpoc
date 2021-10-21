@@ -11,7 +11,7 @@ pipeline{
 		stage('Build') {
 
 			steps {
-                sh 'cd product'
+                		sh 'cd product'
 				sh 'docker build -t newscape/productimg:latest .'
 			}
 		}
