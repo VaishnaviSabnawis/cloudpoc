@@ -2,7 +2,7 @@ node {
 
     checkout scm
     sh "cd product"
-    sh "ls
+    sh "ls"
     sh "cd 'product'"
     docker.withRegistry('https://registry.hub.docker.com', 'dockerhub') {
 
